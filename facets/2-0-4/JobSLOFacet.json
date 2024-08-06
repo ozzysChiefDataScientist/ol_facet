@@ -26,9 +26,4 @@
     }
   },
   "type": "object",
-  "properties": {
-    "sql": {
-      "$ref": "#/$defs/SQLJobFacet"
-    }
-  }
 }
