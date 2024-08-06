@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://github.com/ozzysChiefDataScientist/ol_facet/blob/main/JobSLOFacet.json",
+  "$id": "https://raw.githubusercontent.com/ozzysChiefDataScientist/ol_facet/main/facets/2-0-4/JobSLOFacet.json",
   "$defs": {
     "JobSLOFacet": {
       "allOf": [
@@ -12,11 +12,11 @@
           "properties": {
             "slo_name": {
               "type": "string",
-              "example": "timelines"
+              "example": "BATCH"
             },
             "product": {
               "type": "string",
-              "example": "my_product"
+              "example": "SPARK"
             }
           },
           "required": ["slo_name", "product"]
@@ -25,5 +25,5 @@
       "type": "object"
     }
   },
-  "type": "object",
+  "type": "object"
 }
