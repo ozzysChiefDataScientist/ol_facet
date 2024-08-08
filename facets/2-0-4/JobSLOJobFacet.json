@@ -1,6 +1,6 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "https://openlineage.io/spec/facets/2-0-3/JobTypeJobFacet.json",
+  "$id": "https://raw.githubusercontent.com/ozzysChiefDataScientist/ol_facet/main/facets/2-0-4/JobSLOFacet.json",
   "$defs": {
     "JobTypeJobFacet": {
       "allOf": [
